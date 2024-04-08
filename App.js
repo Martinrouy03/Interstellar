@@ -18,7 +18,7 @@ export default function App() {
   const jessica = require("./assets/jessica.jpg");
   const mackenzie = require("./assets/mackenzie.jpg");
   return (
-    <View style={{ gap: 10, backgroundColor: "black" }}>
+    <ScrollView style={{ gap: 10, backgroundColor: "black" }}>
       <View
         style={{
           padding: 10,
@@ -98,7 +98,7 @@ export default function App() {
           </View>
         </View>
       </View>
-      <ScrollView
+      <View
         style={{
           padding: 10,
           backgroundColor: "#212121",
@@ -176,8 +176,8 @@ export default function App() {
           </View>
           <View></View>
         </View>
-      </ScrollView>
-    </View>
+      </View>
+    </ScrollView>
   );
 }
 const styles = StyleSheet.create({
